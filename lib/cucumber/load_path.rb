@@ -11,4 +11,4 @@ module Cucumber
   end
 end
 
-Cucumber::LoadPath.add_dirs('lib')
+Cucumber::LoadPath.add_dirs(File.absolute_path('lib'))
